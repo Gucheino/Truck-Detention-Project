@@ -4,3 +4,15 @@ __pycache__
 /video/
 /extracted_frames/
 /detected_frames/
+.venv
+__pycache__
+.DS_Store
+
+/video/*
+!/video/.gitkeep
+
+/extracted_frames/*
+!/extracted_frames/.gitkeep
+
+/detected_frames/*
+!/detected_frames/.gitkeep
