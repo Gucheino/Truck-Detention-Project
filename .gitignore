@@ -1,0 +1,6 @@
+.venv
+__pycache__
+.DS_Store
+/video/
+/extracted_frames/
+/detected_frames/
