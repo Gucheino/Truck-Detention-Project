@@ -1,6 +1,10 @@
 import torch
 import cv2
 
+# Check if CUDA (GPU) is available
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+print(f"Using device: {device}")
+
 # Load the YOLOv5 model from PyTorch Hub
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
 

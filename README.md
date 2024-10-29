@@ -1,1 +1,1 @@
-# Truck-Detection-from-Video-using-YOLOv5
+# Truck-Detection using YOLOv5
